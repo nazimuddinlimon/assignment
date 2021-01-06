@@ -1,0 +1,241 @@
+/* ===============Reset css=============== */
+/* ========================================= */
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.clear::after{
+    content: "";
+    clear: both;
+    display: inline-block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
+}
+i{
+    color:#009688;
+}
+body, h1, p, span{
+    font-family: sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#757575;
+}
+/* ======================================= */
+/* ============= main section css ================ */
+.main-container{
+    margin-bottom: 15px;
+    display: inline-block;
+    width: 100%;
+}
+/* ======================================== */
+/* ===============about section =================== */
+.about{
+    width: 30%;
+    border: 1px solid #ddd;
+    margin: 1%;
+    box-shadow: 0 0 7px;
+}
+.about .img::after{
+    content: "";
+
+}
+.contect{
+    width:94%;
+    margin:auto;
+    border-bottom: 1px solid #eeeeee;
+}
+.contect ul{
+    margin-bottom: 15px;
+}
+.contect ul li{
+    padding:6px 0;
+    font-size: 16px;
+}
+.contect ul i{
+    color:#009688;
+    font-size: ;
+}
+.contect ul span{
+    margin-left: 5%;
+    color:#797775;
+}
+.skills{
+    width: 94%;
+    margin:15px auto;
+}
+.skills i{
+    margin-right: 14px;
+}
+.skills h2{
+    margin-top: 40px;
+}
+.skills .title{
+    margin-top: 20px;
+}
+
+/* ================================================ */
+/* ======================= work space ================ */
+.work-spce{
+    width: 67%;
+    margin:1%;
+    margin-left: 0;
+
+}
+/* =================work-experience============== */
+.work-experience{
+    box-shadow: 0 0 7px;
+    padding:10px 0;
+}
+.woex{
+    width: 94%;
+    margin:  auto;
+    padding: 10px 0 0 0;
+
+}
+.woex span{
+    margin-left: 15px;
+    color:#757575;
+    font-weight: normal;
+}
+.woex h1{
+    margin-bottom: 30px;
+}
+.woex h4{
+    margin-top: 30px;
+}
+.woex i{
+    margin-right: 15px;
+}
+.woex span{
+    background-color:#009688;
+    padding: 3px 5px;
+    color:white;
+    border-radius: 5px;
+}
+.woex .heading{
+    margin:10px 0;
+    padding:2px 0;
+    color:#009688;
+}
+.woex .text{
+    padding: 5px 0 20px 0;
+    margin: 10px 0;
+    line-height: 25px;
+    border-bottom: 1px solid #eeeeee;
+}
+.woex .text:nth-child(2){
+    padding-bottom: 0;
+    border: none;
+}
+.space{
+margin-top: 20px;
+}
+/* ================= Education ============ */
+.education{
+    box-shadow: 0 0 15px;
+}
+/*============ Progress bar =========== */
+.bp{
+    width: 100%;
+    height: 17px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.fp{
+    height:100% ;
+    background-color:#009688 ;
+    border-radius: 10px;
+    text-align: center;
+}
+.fp p{
+    color: white;
+    padding-top: 1.1px;
+}
+.fp-photoshop{
+    width: 90%;
+}
+.fp-photography{
+    width: 70%;
+}
+.fp-illustrator{
+    width: 50%;
+}
+.fp-media{
+    width: 95%;
+}
+/* Langulege */
+.bp2{
+    width: 100%;
+    height: 23px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.fp-english{
+    width:70%;
+}
+.fp-bangla{
+    width:100%;
+}
+.fp-hindi{
+    width:95%;
+}
+.fp .parcent{
+    padding-top: 3px;
+}
+/* ============================================== */
+/* ==================Footer css================= */
+.footer{
+    text-align: center;
+    background-color: #009688;
+
+    display: inline-block;
+    width: 100%;
+}
+.footer p{
+    color:white;
+    padding: 7px 0;
+}
+.footer i{
+    color:#00ffe5;
+}
+
+.footer ul li{
+    display: inline-block;
+    margin: 0 14px;
+    
+}
+.footer a{
+    color:white;
+}
+.footer ul li a{
+    display: inline-block;
+    font-size: 25px;
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+
+    background-color: #009688;
+    border-radius: 50%;
+    
+}
+.footer ul li a:hover{
+    background-color: rgba(0, 0, 0, 0.548);
+    transition: .4s;
+}
